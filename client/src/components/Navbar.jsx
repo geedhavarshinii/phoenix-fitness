@@ -13,14 +13,19 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed inset-x-0 top-0 z-30 backdrop-blur bg-white/70 shadow-sm">
+    // <header className="fixed inset-x-0 top-0 z-30 backdrop-blur bg-white/70 shadow-sm"
+    // >
+    // <header className="fixed top-0 left-0 z-50 w-full bg-gradient-to-b from-pink-500 via-pink-400 to-transparent text-white backdrop-blur-3xl shadow-md">
+    <header className="fixed top-0 left-0 z-50 w-full bg-gradient-to-b from-phoenixPink via-phoenixPink/50 to-transparent text-phoenixPink backdrop-blur-md shadow-md transition-all duration-500">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
         {/* logo */}
         <a href="#" className="flex items-center gap-2">
-          {/* <img src={Logo} className="h-8 w-auto" /> */}
-          <span className="text-2xl font-extrabold text-phoenixOrange">
+          <img src={Logo} className="h-8 w-auto" />
+          <div className='grid-rows-2'><div className="text-2xl font-extrabold text-phoenixWhite">
             Phoenix
-          </span>
+          </div>
+          <div className='text-sm font-semibold text-phoenixOrange'>Fitness Center</div></div>
+           
         </a>
 
         {/* desktop links */}
@@ -29,7 +34,7 @@ export default function Navbar() {
             <li key={l.label}>
               <a
                 href={l.href}
-                className="text-sm font-medium text-gray-600 hover:text-phoenixPink transition"
+                className="text-md font-bold text-white hover:text-phoenixPink transition"
               >
                 {l.label}
               </a>
@@ -38,7 +43,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="rounded-full bg-phoenixOrange px-5 py-2 text-sm font-semibold text-white shadow hover:brightness-105 transition"
+              className="rounded-full bg-phoenixPink px-5 py-2 text-sm font-semibold text-white shadow hover:brightness-105 transition"
             >
               Join Us
             </a>
