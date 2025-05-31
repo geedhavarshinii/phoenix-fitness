@@ -34,7 +34,7 @@ export default function PricingSection() {
           {plans.map((p) => (
             <div
               key={p.duration}
-              className="rounded-2xl border border-pink-200 p-8 shadow-md hover:shadow-lg transition"
+              className="rounded-2xl border border-pink-200 p-8 shadow-md hover:shadow-lg transition "
             >
               <h3 className="text-xl font-bold text-pink-600">{p.duration}</h3>
               <p className="mt-2 text-4xl font-extrabold text-orange-500">
