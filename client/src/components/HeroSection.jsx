@@ -35,7 +35,7 @@ const HeroSection = () => {
 
           <a
             href="#"
-            className="mt-8 inline-block rounded-full bg-pink-600 px-8 py-3 text-lg font-bold shadow-lg transition hover:bg-pink-700 text-phoenixWhite"
+            className="mt-8 inline-block rounded-full bg-phoenixPink px-8 py-3 text-lg font-bold shadow-lg transition hover:bg-pink-700 text-phoenixWhite"
           >
             Start Now
           </a>

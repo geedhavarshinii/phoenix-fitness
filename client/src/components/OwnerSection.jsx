@@ -14,7 +14,7 @@ export default function OwnerSection() {
 
         {/* Bio */}
         <div className="flex-1 text-center md:text-left">
-          <h2 className="text-3xl font-bold text-pink-600 mb-4">
+          <h2 className="text-3xl font-bold text-phoenixPink mb-4">
             Meet&nbsp;Priyadharshini
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">

@@ -16,7 +16,7 @@ export default function FeaturesSection() {
   return (
     <section id="features" className="bg-pink-50 py-20 px-4 md:px-10">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-pink-600 mb-4">
+        <h2 className="text-center text-3xl md:text-4xl font-extrabold text-phoenixPink mb-4">
           Why&nbsp;Choose&nbsp;Us
         </h2>
         <p className="text-center text-gray-600 max-w-xl mx-auto mb-12">
@@ -30,9 +30,9 @@ export default function FeaturesSection() {
               className="group rounded-xl bg-white p-6 shadow-md hover:shadow-xl transition"
             >
               <div className="flex items-center justify-center h-14 w-14 rounded-full bg-pink-100 mb-4 group-hover:scale-105 transition">
-                <Icon className="h-7 w-7 text-pink-600" strokeWidth={2.2} />
+                <Icon className="h-7 w-7 text-phoenixPink" strokeWidth={2.2} />
               </div>
-              <h3 className="text-lg font-semibold text-pink-600">{title}</h3>
+              <h3 className="text-lg font-semibold text-phoenixPink">{title}</h3>
               <p className="mt-2 text-gray-500 text-sm">{desc}</p>
             </div>
           ))}

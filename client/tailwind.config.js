@@ -17,7 +17,7 @@ export default {
     rise: 'rise 1s ease-in-out forwards',
   },
       colors: {
-      phoenixPink: '#ff5f8a',
+      phoenixPink: '#d81b60', //'#ff5f8a'
       phoenixOrange: '#ff9f1c',
       phoenixWhite: '#fefefe',
     },
